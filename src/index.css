@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* Reservation css start */
+.reserv h2{
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #060709;
+    padding-bottom: 12px;
+    padding-top: 5px;
+}
+.btn button{
+    color: #fff;
+    background: #5D5CFF;
+    padding: 10px;
+    border: rebeccapurple;
+    border-radius: 5px;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+.reserv{
+    justify-content: center;
+}
+
+.mainReserv h4{
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #060709;
+    border-bottom: 1px solid #5D5CFF;
+    padding-bottom: 10px;
+}
+
+.mainReserv{
+    border: 1px solid #DFDFFF;
+    border-radius: 5px;
+    padding: 16px;
+    margin-right: 47px;
+}
+
+.mainReserv p{
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #1B1B1B;
+    margin: 0;
+    margin-bottom: 8px;
+}
+.mainReserv input{
+    width: 100%;
+    margin-bottom: 14px;
+    border: 1px solid #DFDFFF;
+    border-radius: 5px;
+    outline: none;
+    padding: 6px;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    color: #828290;
+}
+.mainReserv input:last-of-type {
+    margin-bottom: 0;
+}
+
+
+.charge h3{
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #060709;
+    border-bottom: 1px solid #5D5CFF;
+    padding-bottom: 10px;
+    padding-top: 18px;
+}
+
+/* =========charge css */
+.charges-table{
+    border: 1px solid #5D5CFF;
+    background: #DFDFFF;
+    width: 100%;
+    margin-top: 15px;
+}
+.tHead tr th{
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #1B1B1B;
+    border-bottom: 1px solid #5D5CFF;
+    padding: 16px 0 18px 15px;
+}
+
+.tBody tr td{
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #1B1B1B;
+    padding: 15px;
+}
+
+.tFoot tr td{
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #1B1B1B;
+    padding-left: 15px;
+    padding-bottom: 13px;
+    padding-top: 8px;
+}
+
+.aditionalCharge h3{
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #060709;
+    border-bottom: 1px solid #5D5CFF;
+    padding-bottom: 10px;
+    padding-top: 18px;
+
+}
+.aditionalCharge label{
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #000000;
+    padding-bottom: 22px;
+}
+.aditionalCharge{
+    border: 1px solid #D7D7FF;
+    border-radius: 5px;
+}
+
+.vType option{
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #828290;
+}
+
+
+/* ================================== */
+/* Invoice components css start */
+/* ===================================== */
+.invoice-container {
+    width: 210mm;
+    min-height: 297mm;
+    margin: auto;
+    background: white;
+    box-shadow: 0 0 5mm rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.col-12, .col-lg-6 {
+    flex: 1;
+    max-width: 100%;
+    padding: 0 15px;
+}
+
+.col-lg-6 {
+    max-width: 50%;
+}
+
+.pt-3 {
+    padding-top: 1rem;
+}
+
+.pb-3 {
+    padding-bottom: 1rem;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.cusInfo, .company-info, .working-hours, .reservation-info, .charge-summary, .invoiceText {
+    margin-top: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+/* ============= */
+.cusInfo h3{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+}
+.cusInfo p{
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #000;
+}
+.company-info h3{
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #000;
+}
+.company-info p{
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #000;
+}
+.company-info{
+    padding-bottom: 10px;
+}
+
+.working-hours p{
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #000;
+    line-height: 10px;
+}
+.adition h3{
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #000;
+}
+.adition p{
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #000;
+    margin-bottom: 2px;
+}
+
+.reservation-info h3{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+}
+.reservation-info h4{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+}
+.reservation-info span{
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #000;
+}
+.reservation-info p{
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #000;
+    margin: 0;
+}
+tr td{
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #000;
+}
+
+.charge-summary table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.charge-summary th,
+.charge-summary td {
+  border: 1px solid #ccc;
+  padding: 5px;
+  text-align: left;
+}
+.invoiceText p{
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #000; 
+}
