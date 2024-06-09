@@ -112,7 +112,7 @@ const Reservation = () => {
         const Vehicle = selectRef.current.value;
         const VehicleType = typeRef.current.value;
         let res = await createInvoiceRequest(firstName,lastName,email, phone, address,pickupDate,returnDate,duration,discount,VehicleType,Vehicle,collisionDamageWaiver,liabilityInsurance,rentalTax,charge,grandTotal);
-    window.location.href="/invoice"
+         window.location.href="/invoice"
     }
 
     return (
